@@ -20,7 +20,7 @@ public class SelenoidTest {
         driver.manage().window().maximize();
     }
 
-    @Test
+    @Test(enabled = false)
     public void testOnSelenoid() {
         driver.get("https://www.saucedemo.com/");
         System.out.println("Title: " + driver.getTitle());

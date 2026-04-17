@@ -1443,3 +1443,233 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 2026-04-17 14:17:28.354 [main] INFO  testgroup.LoginPageTest - Заголовок проверен
 2026-04-17 14:17:28.363 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
 2026-04-17 14:17:29.158 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:38:28.715 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:38:29.683 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:38:29.716 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:38:32.219 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:38:32.221 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:32.221 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:38:32.982 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:38:33.118 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:38:33.119 [main] INFO  testgroup.LoginPageTest - Пользователь: standard_user, должен войти: true
+2026-04-17 16:38:33.119 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:38:33.119 [main] INFO  testgroup.LoginPage - Вводим логин: standard_user
+2026-04-17 16:38:33.284 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:38:33.468 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:33.477 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:38:33.479 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: standard_user
+2026-04-17 16:38:33.513 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:38:34.839 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:38:34.846 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:38:34.857 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:38:34.872 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:38:36.778 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:38:36.779 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:36.780 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:38:37.385 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:38:37.396 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:38:37.396 [main] INFO  testgroup.LoginPageTest - Пользователь: locked_out_user, должен войти: false
+2026-04-17 16:38:37.396 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:38:37.396 [main] INFO  testgroup.LoginPage - Вводим логин: locked_out_user
+2026-04-17 16:38:37.541 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:38:37.752 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:37.760 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/
+2026-04-17 16:38:37.760 [main] INFO  testgroup.LoginPageTest - Вход не выполнен для: locked_out_user, как и ожидалось
+2026-04-17 16:38:37.770 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:38:38.567 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:38:38.579 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:38:38.600 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:38:38.612 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:38:40.452 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:38:40.452 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:40.453 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:38:41.017 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:38:41.032 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:38:41.033 [main] INFO  testgroup.LoginPageTest - Пользователь: problem_user, должен войти: true
+2026-04-17 16:38:41.033 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:38:41.033 [main] INFO  testgroup.LoginPage - Вводим логин: problem_user
+2026-04-17 16:38:41.161 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:38:41.432 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:41.439 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:38:41.439 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: problem_user
+2026-04-17 16:38:41.449 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:38:42.549 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:38:42.555 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:38:42.571 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:38:42.596 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:38:44.376 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:38:44.377 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:44.377 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:38:44.958 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:38:44.976 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:38:44.976 [main] INFO  testgroup.LoginPageTest - Пользователь: performance_glitch_user, должен войти: true
+2026-04-17 16:38:44.977 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:38:44.977 [main] INFO  testgroup.LoginPage - Вводим логин: performance_glitch_user
+2026-04-17 16:38:45.220 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:38:50.431 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:50.443 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:38:50.443 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: performance_glitch_user
+2026-04-17 16:38:50.451 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:38:51.705 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:38:51.716 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:38:51.727 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:38:51.740 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:38:53.579 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:38:53.580 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:53.580 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:38:54.151 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:38:54.164 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:38:54.165 [main] INFO  testgroup.LoginPageTest - Пользователь: error_user, должен войти: true
+2026-04-17 16:38:54.165 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:38:54.165 [main] INFO  testgroup.LoginPage - Вводим логин: error_user
+2026-04-17 16:38:54.280 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:38:54.554 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:54.566 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:38:54.567 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: error_user
+2026-04-17 16:38:54.580 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:38:55.801 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:38:55.807 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:38:55.822 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:38:55.845 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:38:57.789 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:38:57.790 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:57.790 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:38:58.289 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:38:58.306 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:38:58.306 [main] INFO  testgroup.LoginPageTest - Пользователь: visual_user, должен войти: true
+2026-04-17 16:38:58.306 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:38:58.306 [main] INFO  testgroup.LoginPage - Вводим логин: visual_user
+2026-04-17 16:38:58.423 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:38:58.660 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:38:58.675 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:38:58.676 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: visual_user
+2026-04-17 16:38:58.685 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:38:59.947 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:38:59.955 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:38:59.966 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:38:59.985 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:39:01.832 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:39:01.832 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:39:01.833 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:39:02.346 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:39:02.356 [main] INFO  testgroup.LoginPageTest - ========== ТЕСТ: openSiteTest ==========
+2026-04-17 16:39:02.356 [main] INFO  testgroup.LoginPage - Получаем заголовок страницы
+2026-04-17 16:39:02.365 [main] INFO  testgroup.LoginPageTest - Заголовок страницы: Swag Labs
+2026-04-17 16:39:02.365 [main] INFO  testgroup.LoginPageTest - Заголовок проверен
+2026-04-17 16:39:02.372 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:39:03.583 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:40:05.694 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:40:06.009 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:40:06.036 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:40:08.331 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:40:08.333 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:08.333 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:40:08.872 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:40:08.925 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:40:08.926 [main] INFO  testgroup.LoginPageTest - Пользователь: standard_user, должен войти: true
+2026-04-17 16:40:08.926 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:40:08.926 [main] INFO  testgroup.LoginPage - Вводим логин: standard_user
+2026-04-17 16:40:09.142 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:40:09.339 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:09.346 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:40:09.347 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: standard_user
+2026-04-17 16:40:09.363 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:40:10.430 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:40:10.439 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:40:10.459 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:40:10.477 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:40:12.311 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:40:12.311 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:12.311 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:40:12.800 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:40:12.810 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:40:12.810 [main] INFO  testgroup.LoginPageTest - Пользователь: locked_out_user, должен войти: false
+2026-04-17 16:40:12.810 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:40:12.812 [main] INFO  testgroup.LoginPage - Вводим логин: locked_out_user
+2026-04-17 16:40:12.942 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:40:13.145 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:13.155 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/
+2026-04-17 16:40:13.155 [main] INFO  testgroup.LoginPageTest - Вход не выполнен для: locked_out_user, как и ожидалось
+2026-04-17 16:40:13.162 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:40:14.349 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:40:14.356 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:40:14.366 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:40:14.392 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:40:16.381 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:40:16.382 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:16.382 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:40:16.904 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:40:16.917 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:40:16.917 [main] INFO  testgroup.LoginPageTest - Пользователь: problem_user, должен войти: true
+2026-04-17 16:40:16.917 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:40:16.917 [main] INFO  testgroup.LoginPage - Вводим логин: problem_user
+2026-04-17 16:40:17.044 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:40:17.323 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:17.331 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:40:17.332 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: problem_user
+2026-04-17 16:40:17.340 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:40:18.475 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:40:18.484 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:40:18.496 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:40:18.531 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:40:20.467 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:40:20.469 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:20.469 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:40:20.964 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:40:20.975 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:40:20.976 [main] INFO  testgroup.LoginPageTest - Пользователь: performance_glitch_user, должен войти: true
+2026-04-17 16:40:20.976 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:40:20.976 [main] INFO  testgroup.LoginPage - Вводим логин: performance_glitch_user
+2026-04-17 16:40:21.115 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:40:26.399 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:26.409 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:40:26.410 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: performance_glitch_user
+2026-04-17 16:40:26.418 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:40:27.594 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:40:27.603 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:40:27.611 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:40:27.623 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:40:29.583 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:40:29.584 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:29.585 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:40:30.152 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:40:30.169 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:40:30.169 [main] INFO  testgroup.LoginPageTest - Пользователь: error_user, должен войти: true
+2026-04-17 16:40:30.170 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:40:30.170 [main] INFO  testgroup.LoginPage - Вводим логин: error_user
+2026-04-17 16:40:30.292 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:40:30.554 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:30.561 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:40:30.561 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: error_user
+2026-04-17 16:40:30.570 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:40:31.559 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:40:31.567 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:40:31.582 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:40:31.597 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:40:33.424 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:40:33.425 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:33.425 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:40:34.026 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:40:34.039 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 16:40:34.039 [main] INFO  testgroup.LoginPageTest - Пользователь: visual_user, должен войти: true
+2026-04-17 16:40:34.040 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 16:40:34.040 [main] INFO  testgroup.LoginPage - Вводим логин: visual_user
+2026-04-17 16:40:34.201 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 16:40:34.484 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:34.493 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 16:40:34.493 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: visual_user
+2026-04-17 16:40:34.503 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:40:35.634 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:40:35.645 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:40:35.667 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.57 (resolved driver for Chrome 147)
+2026-04-17 16:40:35.706 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\E.panasov\.cache\selenium\chromedriver\win64\147.0.7727.57\chromedriver.exe
+2026-04-17 16:40:37.771 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 16:40:37.771 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 16:40:37.771 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 16:40:38.420 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 16:40:38.435 [main] INFO  testgroup.LoginPageTest - ========== ТЕСТ: openSiteTest ==========
+2026-04-17 16:40:38.435 [main] INFO  testgroup.LoginPage - Получаем заголовок страницы
+2026-04-17 16:40:38.443 [main] INFO  testgroup.LoginPageTest - Заголовок страницы: Swag Labs
+2026-04-17 16:40:38.444 [main] INFO  testgroup.LoginPageTest - Заголовок проверен
+2026-04-17 16:40:38.454 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 16:40:39.519 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
