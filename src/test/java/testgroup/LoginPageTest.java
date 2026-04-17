@@ -91,7 +91,7 @@ public class LoginPageTest {
     public void authorizationTest(String username, String userpassword, boolean shouldSucceed) {
         log.info("========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========");
         log.info("Пользователь: {}, должен войти: {}", username, shouldSucceed);
-        InventoryPage inventoryPage = loginPage.clickButtonLogin(username, userpassword);
+        loginPage.clickButtonLogin(username, userpassword);
         String currentUrl = driver.getCurrentUrl();
         log.info("Текущий URL: {}", currentUrl);
         if (shouldSucceed) {
