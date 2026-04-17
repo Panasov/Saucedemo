@@ -8,7 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -52,8 +52,8 @@ public class LoginPageTest {
     @Step("Настройка теста: открытие браузера и страницы LoginPage")
     public void setUp() {
         log.info("========== НАЧАЛО НАСТРОЙКИ ==========");
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        WebDriverManager.firefoxdriver().setup();
+        FirefoxOptions options = new FirefoxOptions();
         driver.manage().window().maximize();
         loginPage = new LoginPage(driver);
         inventoryPage = new InventoryPage(driver);
