@@ -17,4 +17,9 @@ public class InventoryPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         log.info("InventoryPage инициализирован");
     }
+
+    public String getTitle() {
+        log.info("Получаем заголовок страницы");
+        return driver.getTitle();
+    }
 }
