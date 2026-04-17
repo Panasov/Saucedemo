@@ -1673,3 +1673,124 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 2026-04-17 16:40:38.444 [main] INFO  testgroup.LoginPageTest - Заголовок проверен
 2026-04-17 16:40:38.454 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
 2026-04-17 16:40:39.519 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 16:56:42.175 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:56:43.117 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 16:56:43.148 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 16:58:27.266 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 16:58:27.602 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 16:58:27.632 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:00:30.039 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 17:00:30.340 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 17:00:30.368 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:00:34.810 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 17:00:34.820 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:00:34.820 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 17:00:35.506 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 17:00:35.564 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 17:00:35.566 [main] INFO  testgroup.LoginPageTest - Пользователь: standard_user, должен войти: true
+2026-04-17 17:00:35.566 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 17:00:35.567 [main] INFO  testgroup.LoginPage - Вводим логин: standard_user
+2026-04-17 17:00:35.666 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 17:00:35.840 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:00:35.849 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 17:00:35.852 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: standard_user
+2026-04-17 17:00:35.899 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 17:00:43.666 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 17:00:43.674 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 17:00:43.684 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 17:00:43.706 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:00:47.155 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 17:00:47.155 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:00:47.156 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 17:00:47.954 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 17:00:47.977 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 17:00:47.978 [main] INFO  testgroup.LoginPageTest - Пользователь: locked_out_user, должен войти: false
+2026-04-17 17:00:47.978 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 17:00:47.978 [main] INFO  testgroup.LoginPage - Вводим логин: locked_out_user
+2026-04-17 17:00:48.064 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 17:00:48.227 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:00:48.232 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/
+2026-04-17 17:00:48.232 [main] INFO  testgroup.LoginPageTest - Вход не выполнен для: locked_out_user, как и ожидалось
+2026-04-17 17:00:48.262 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 17:00:56.589 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 17:00:56.597 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 17:00:56.605 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 17:00:56.621 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:00:59.926 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 17:00:59.927 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:00:59.927 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 17:01:00.884 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 17:01:00.904 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 17:01:00.904 [main] INFO  testgroup.LoginPageTest - Пользователь: problem_user, должен войти: true
+2026-04-17 17:01:00.905 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 17:01:00.905 [main] INFO  testgroup.LoginPage - Вводим логин: problem_user
+2026-04-17 17:01:00.994 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 17:01:01.159 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:01.163 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 17:01:01.163 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: problem_user
+2026-04-17 17:01:01.202 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 17:01:09.326 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 17:01:09.335 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 17:01:09.344 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 17:01:09.358 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:01:12.480 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 17:01:12.481 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:12.481 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 17:01:13.307 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 17:01:13.321 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 17:01:13.322 [main] INFO  testgroup.LoginPageTest - Пользователь: performance_glitch_user, должен войти: true
+2026-04-17 17:01:13.322 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 17:01:13.322 [main] INFO  testgroup.LoginPage - Вводим логин: performance_glitch_user
+2026-04-17 17:01:13.454 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 17:01:18.661 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:18.666 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 17:01:18.667 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: performance_glitch_user
+2026-04-17 17:01:18.679 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 17:01:23.978 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 17:01:23.990 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 17:01:24.007 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 17:01:24.038 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:01:27.593 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 17:01:27.593 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:27.594 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 17:01:28.415 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 17:01:28.447 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 17:01:28.448 [main] INFO  testgroup.LoginPageTest - Пользователь: error_user, должен войти: true
+2026-04-17 17:01:28.448 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 17:01:28.448 [main] INFO  testgroup.LoginPage - Вводим логин: error_user
+2026-04-17 17:01:28.566 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 17:01:28.756 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:28.763 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 17:01:28.764 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: error_user
+2026-04-17 17:01:28.780 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 17:01:37.894 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 17:01:37.902 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 17:01:37.910 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 17:01:37.922 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:01:41.365 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 17:01:41.365 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:41.365 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 17:01:42.164 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 17:01:42.180 [main] INFO  testgroup.LoginPageTest - ========== ПАРАМЕТРИЗОВАННЫЙ ТЕСТ ==========
+2026-04-17 17:01:42.181 [main] INFO  testgroup.LoginPageTest - Пользователь: visual_user, должен войти: true
+2026-04-17 17:01:42.181 [main] INFO  testgroup.LoginPage - Нажимаем кнопку Login
+2026-04-17 17:01:42.181 [main] INFO  testgroup.LoginPage - Вводим логин: visual_user
+2026-04-17 17:01:42.269 [main] INFO  testgroup.LoginPage - Вводим пароль
+2026-04-17 17:01:42.553 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:42.570 [main] INFO  testgroup.LoginPageTest - Текущий URL: https://www.saucedemo.com/inventory.html
+2026-04-17 17:01:42.574 [main] INFO  testgroup.LoginPageTest - Вход выполнен для: visual_user
+2026-04-17 17:01:42.631 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 17:01:53.631 [main] INFO  testgroup.LoginPageTest - Браузер закрыт
+2026-04-17 17:01:53.642 [main] INFO  testgroup.LoginPageTest - ========== НАЧАЛО НАСТРОЙКИ ==========
+2026-04-17 17:01:53.657 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 149)
+2026-04-17 17:01:53.682 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\E.panasov\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+2026-04-17 17:01:57.015 [main] INFO  testgroup.LoginPage - LoginPage инициализирован
+2026-04-17 17:01:57.015 [main] INFO  testgroup.InventoryPage - InventoryPage инициализирован
+2026-04-17 17:01:57.015 [main] INFO  testgroup.LoginPageTest - Открываем сайт https://www.saucedemo.com/
+2026-04-17 17:01:57.795 [main] INFO  testgroup.LoginPageTest - Настройка завершена
+2026-04-17 17:01:57.831 [main] INFO  testgroup.LoginPageTest - ========== ТЕСТ: openSiteTest ==========
+2026-04-17 17:01:57.831 [main] INFO  testgroup.LoginPage - Получаем заголовок страницы
+2026-04-17 17:01:57.838 [main] INFO  testgroup.LoginPageTest - Заголовок страницы: Swag Labs
+2026-04-17 17:01:57.841 [main] INFO  testgroup.LoginPageTest - Заголовок проверен
+2026-04-17 17:01:57.862 [main] INFO  testgroup.LoginPageTest - ========== ЗАВЕРШЕНИЕ ТЕСТА ==========
+2026-04-17 17:02:08.077 [main] INFO  testgroup.LoginPageTest - Браузер закрыт

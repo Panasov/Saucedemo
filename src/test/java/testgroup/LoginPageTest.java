@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -54,6 +55,7 @@ public class LoginPageTest {
         log.info("========== НАЧАЛО НАСТРОЙКИ ==========");
         WebDriverManager.firefoxdriver().setup();
         FirefoxOptions options = new FirefoxOptions();
+        driver = new FirefoxDriver(options);
         driver.manage().window().maximize();
         loginPage = new LoginPage(driver);
         inventoryPage = new InventoryPage(driver);
