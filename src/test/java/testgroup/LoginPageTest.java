@@ -59,7 +59,6 @@ public class LoginPageTest {
         inventoryPage = new InventoryPage(driver);
         log.info("Открываем сайт https://www.saucedemo.com/");
         driver.get("https://www.saucedemo.com/");
-        log.info("Сайт успешно открыт");
         log.info("Настройка завершена");
     }
 
